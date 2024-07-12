@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Individual2Ayala.jnlp">
+  <information>
+    <title>Individual2Ayala</title>
+    <vendor>ROCIO</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Individual2Ayala.jar" size="4801" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.17.jar" size="2321813" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="individual2ayala.Individual2Ayala"  name="Individual2Ayala" />
+  <update check="always"/>
+</jnlp>
